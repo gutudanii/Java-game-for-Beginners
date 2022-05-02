@@ -1,50 +1,26 @@
+
+                    _ _ _ _ _           _       _ _          _ _      _ 
+                   |_ _   _ _|       /     \    \  \        /  /   /    \
+                      |  |          /  / \  \    \  \      /  /   /  /\  \
+                      |  |         /  /_ _\  \    \  \    /  /   /  / _\  \
+                      |  |        /  _ _ _ _  \    \  \  /  /   /   _ _ _  \ 
+                  _ _ /  /       /  /       \  \    \  \/  /   /  /      \  \
+                 |_ _ _ /       /__/         \__\    \_ _ /   /_ /        \ _\
+                 
+                       
 # Java game for Beginners
  This Java Game created only using OOP(Object Oriented Programming concept without Java Swing and any JFrames
 #CODE REVIEW
-main.java
-package com.game.group;
 
-import java.util.Scanner;
+This Program is Created by Gutu and It's simple Java
+Steps to Follow to Import on your IDE
 
+Step 1: Download ZIP File from the Code tab and Unzip it Location when you want to.
 
-public class main {
-    public void menu(){
-        Scanner inp = new Scanner(System.in);
-        loveCalculator lv = new loveCalculator();
-        mindTest mt = new mindTest();
-        whoAmI wh = new whoAmI();
-        int num;
-        System.out.println("\n\n\n\t\t=================================================================");
-        System.out.println("\n\t\t\t\t\tWEL - COME TO FUN STORE GAME");
-        System.out.println("\n\t\t\t\t\t\t\t1.Start Game");
-        System.out.println("\t\t\t\t\t\t\t2.Exit");
-        System.out.println("\n\t\t=================================================================");
-        System.out.print("\n\t\t\t\t\tChoose = ");
-        num = inp.nextInt();
-        if(num==1){
-            System.out.println("\n\n\t\t=================================================================");
-            System.out.println("\n\t\t\t\t\t Here There are two simple games available Here " +
-                    "\n\t\t\t\t\t\t1.MindTest" +
-                    "\n\t\t\t\t\t\t2.Love Calculator" +
-                    "\n\t\t\t\t\t\t3.See Who You Are");
-            System.out.println("\n\t\t=================================================================");
-            System.out.print("\n\t\t\t\t\tChoose = ");
-            num = inp.nextInt();
-            if (num==1){
-                mt.menu();
-            }
-            else if (num==2){
-                lv.menu();
-            }
-            else if (num==3){
-                wh.menu();
-            }
-        }
-    }
-    public static void main(String[] args) {
-        main m = new main();
-       m.menu();
-    }
-}
+Step 2: Then Open your Project by Importing on IDE you use 
 
-#CONTINUED
+Step 3: Run main.Java
+
+             
+
+             
