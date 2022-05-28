@@ -21,14 +21,11 @@ Step 2: Then Open your Project by Importing on IDE you use
 
 Step 3: Run main.Java
 
-**Main class**
-             package com.game.group;
+      package com.game.group;
 
-import java.util.Scanner;
-
-
-public class main {
-    public void menu(){
+      import java.util.Scanner; 
+    public class main {
+          public void menu(){
         Scanner inp = new Scanner(System.in);
         loveCalculator lv = new loveCalculator();
         mindTest mt = new mindTest();
@@ -70,14 +67,14 @@ public class main {
     }
 }
 
-             **LoveCalculator**
+  **LoveCalculator**
              
              package com.game.group;
 
-import java.util.Random;
-import java.util.Scanner;
+    import java.util.Random;
+    import java.util.Scanner;
 
-public class loveCalculator {
+    public class loveCalculator {
     int men;
     String mName,lName;
     String cont;
@@ -147,13 +144,13 @@ public class loveCalculator {
 }
 **    MINDTEST**
 
-package com.game.group;
+    package com.game.group;
 
-import java.io.*;
-import java.util.Random;
-import java.util.Scanner;
+    import java.io.*;
+    import java.util.Random;
+    import java.util.Scanner;
 
-public class mindTest {
+    public class mindTest {
     int aBal, sBal, rNum,gNum1,gNum2,gNum, deft = 100,bal,bal1,bal2,orig,bound,star;
     String usr,usr1,usr2,nm, nm1;;
     Random random = new Random();
@@ -758,16 +755,16 @@ public class mindTest {
     }
 
 }
-      ** WHOAMI **
+    ** WHOAMI **
 
-package com.game.group;
+      package com.game.group;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Scanner;
+    import java.io.BufferedReader;
+    import java.io.FileReader;
+    import java.io.IOException;
+    import java.util.Scanner;
 
-public class whoAmI {
+      public class whoAmI {
     main mn = new main();
     String name;
     Scanner input = new Scanner(System.in);
