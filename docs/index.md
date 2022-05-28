@@ -31,7 +31,7 @@ Step 3: Run main.Java
         mindTest mt = new mindTest();
         whoAmI wh = new whoAmI();
         int num;
-        System.out.println("\n\n\n\t\t=================================================================");
+        System.out.println("\n\n\n\t\t==================================================================");
         System.out.println("\n\t\t\t\t\tWEL - COME TO FUN STORE GAME");
         System.out.println("\n\t\t\t\t\t\t\t1.Start Game");
         System.out.println("\t\t\t\t\t\t\t2.Exit");
